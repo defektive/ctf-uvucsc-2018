@@ -1,0 +1,469 @@
+{
+  "game": [
+    {
+      "category": "Crypto",
+      "description": "What could this be? \r\nZmxhZzpmaXJzdGZsYWcxMjM=",
+      "files": [],
+      "hints": [
+        {
+          "cost": 5,
+          "hint": "This is a base64 string. Use a base64 decode website to see the key. ",
+          "id": 4
+        }
+      ],
+      "id": 1,
+      "name": "Decode Me",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 10
+    },
+    {
+      "category": "Crypto",
+      "description": "While looking through a document you find the following string, can you decrypt it? \r\nespdpncpealddascldptdfvaaychcjplgrehtnqxycvmykpblhr\r\n\r\n- fruitcup ",
+      "files": [],
+      "hints": [
+        {
+          "cost": 5,
+          "hint": "https://www.xarg.org/tools/caesar-cipher/",
+          "id": 2
+        }
+      ],
+      "id": 3,
+      "name": "Caesar",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 20
+    },
+    {
+      "category": "Reversing",
+      "description": "Here's a Binary for you to run.\r\n\r\nHope you know the magic word!\r\n\r\nNote:\r\nThis binary is guaranteed to NOT be malicious. Nonetheless, there is still a flag in it for you to find.\r\n\r\n\\- BashNinja - [@miketweaver](https://twitter.com/miketweaver)",
+      "files": [
+        "d223851688d71ee6c26116f88f23b102/magic-word.o"
+      ],
+      "hints": [
+        {
+          "cost": 50,
+          "hint": "`strings` is a pretty useful linux command.",
+          "id": 8
+        }
+      ],
+      "id": 8,
+      "name": "Magic Word",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 50
+    },
+    {
+      "category": "Forensics",
+      "description": "Do you know your way around Wireshark?\r\n\r\nby Cronocide",
+      "files": [
+        "ed1526a1ac9fc736a52201d32d84cf30/packets101"
+      ],
+      "hints": [],
+      "id": 12,
+      "name": "Packets 101",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 50
+    },
+    {
+      "category": "Forensics",
+      "description": "CTF Challenges can be like Ogres...",
+      "files": [
+        "d2baeaed3ab02cdbd807e3e9ba21e033/onion"
+      ],
+      "hints": [],
+      "id": 16,
+      "name": "HTMLicious",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 50
+    },
+    {
+      "category": "Reversing",
+      "description": "I don't know what to do with this.",
+      "files": [
+        "81a312cfda284fc978d48d98a57511bd/asciiw"
+      ],
+      "hints": [],
+      "id": 19,
+      "name": "ASCIIw",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 50
+    },
+    {
+      "category": "Crypto",
+      "description": "I found these lines in a text file. What do they mean?\r\n\r\n8fc42c6ddf9966db3b09e84365034357\r\n327a6c4304ad5938eaf0efb6cc3e53dc\r\na2a551a6458a8de22446cc76d639a9e9\r\n68b2a124d6d55cb7f0c1b975d6f0358a",
+      "files": [],
+      "hints": [],
+      "id": 21,
+      "name": "Sum Fun with MD5",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 50
+    },
+    {
+      "category": "Crypto",
+      "description": "Can you find the secret page? \r\n\r\n- fruitcup",
+      "files": [],
+      "hints": [
+        {
+          "cost": 5,
+          "hint": "The url is located at: https://ctf.uvucsc.com/supersecret236\r\n\r\nYou could have found this by inspecting the source of the front page. \r\n",
+          "id": 1
+        },
+        {
+          "cost": 10,
+          "hint": "Once there, you wont see anything useful. \r\nTo dig deeper, inspect the page's html source.\r\n\r\nYou should see a html comment with a base64 string. \r\nDecode it using your online tool of choice. \r\n\r\nThe decoded text is using a very basic cypher. \r\n",
+          "id": 7
+        }
+      ],
+      "id": 2,
+      "name": "Find The Secret! ",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 100
+    },
+    {
+      "category": "Forensics",
+      "description": "",
+      "files": [
+        "4844ba18e485ac50eeb51210794e84ee/setup.exe"
+      ],
+      "hints": [],
+      "id": 4,
+      "name": "EULAs are Fun",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 100
+    },
+    {
+      "category": "Reversing",
+      "description": "We found this file on our network. \r\nWhat is this??\r\n<iframe src=\"https://giphy.com/embed/l4JyOwGH26UNQebBK\" width=\"460\" height=\"230\" frameBorder=\"0\" class=\"giphy-embed\" allowFullScreen></iframe>\r\n\r\n\r\n\\- BashNinja - [@miketweaver](https://twitter.com/miketweaver)",
+      "files": [
+        "c272237c55b182a2628656c2bc595bc1/what.is.this"
+      ],
+      "hints": [
+        {
+          "cost": 75,
+          "hint": "Unfortunately `file` didn't work here. \r\n\r\nThat's because the (magic numbers)[https://en.wikipedia.org/wiki/Magic_number_(programming)#Magic_numbers_in_files] that `file` uses is broken.",
+          "id": 13
+        },
+        {
+          "cost": 5,
+          "hint": "You'll want to pop out a hex editor for this one.",
+          "id": 14
+        },
+        {
+          "cost": 10,
+          "hint": "Might be useful to read about why `file` doesn't work on this. What does file use to figure out what things are?",
+          "id": 15
+        },
+        {
+          "cost": 15,
+          "hint": "Look at the file in a hex editor. Look at the ASCII strings near the beginning of the file. Now google that. ",
+          "id": 27
+        }
+      ],
+      "id": 10,
+      "name": "What is this!?",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 100
+    },
+    {
+      "category": "Crypto",
+      "description": "Did you know that every Sunday [@AaronToponce](https://twitter.com/AaronToponce) posts Viginere or Cryptograms on his [@CipherMonkey](https://twitter.com/CipherMonkey) twitter account?\r\n\r\nThis challenges is to solve this week's HARD challenge.\r\n<blockquote class=\"twitter-tweet\" data-conversation=\"none\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">Difficulty: \ud83e\udd8d<br>Type: Cryptogram<a href=\"https://t.co/zWkSu0e1h5\">https://t.co/zWkSu0e1h5</a> <a href=\"https://t.co/RWj4qBJY7O\">pic.twitter.com/RWj4qBJY7O</a></p>&mdash; Cipher Monkey (@CipherMonkey) <a href=\"https://twitter.com/CipherMonkey/status/957748981546721281?ref_src=twsrc%5Etfw\">January 28, 2018</a></blockquote>\r\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\r\n\r\nSubmit the solved version as you would read it.\r\nExample submission: \r\n`this is a really cool challenge and i like it`\r\n\r\nMake sure you tweet [@CipherMonkey](https://twitter.com/CipherMonkey) and let him know you solved it! They love seeing people play with their challenges.\r\n\r\n\\- BashNinja - [@miketweaver](https://twitter.com/miketweaver)",
+      "files": [],
+      "hints": [
+        {
+          "cost": 5,
+          "hint": "Here's a useful [Tutorial](http://www.cryptograms.org/tutorial.php).",
+          "id": 18
+        },
+        {
+          "cost": 5,
+          "hint": "Here's my favorite [tool](http://scottbryce.com/cryptograms/).",
+          "id": 19
+        },
+        {
+          "cost": 75,
+          "hint": "Here's a [tool](https://quipqiup.com/) that'll break cryptograms automatically.\r\n",
+          "id": 20
+        }
+      ],
+      "id": 14,
+      "name": "@CypherMonkey",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 100
+    },
+    {
+      "category": "Crypto",
+      "description": "Ciphertext:\r\n`LKAMALZFY MHIKUXZ ZRPVNSGSUX AZJ'T CACX DLOTZFY VRFLS, WSJF BFU. - HRF KHLF`\r\n\r\n\r\nEnter the cipher key in this format:\r\n`librarian`\r\n\r\n\\- BashNinja - [@miketweaver](https://twitter.com/miketweaver)",
+      "files": [],
+      "hints": [
+        {
+          "cost": 25,
+          "hint": "Key length: `8`",
+          "id": 21
+        },
+        {
+          "cost": 10,
+          "hint": "[Guide](https://ciphermonkey.rocks/vigenere_analysis.html) teaching how to crack these.",
+          "id": 22
+        },
+        {
+          "cost": 75,
+          "hint": "[Tool](http://www.guballa.de/pages/geocaching/vigenere-solver.php) that'll crack it automagicly. ",
+          "id": 23
+        }
+      ],
+      "id": 15,
+      "name": "Vigen\u00e8re",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 100
+    },
+    {
+      "category": "Reversing",
+      "description": "I was trying to copy this file over on the command line and I think I messed up the arguments. Now the file won't open. Can you help?",
+      "files": [
+        "615169ec34b5fe4813f855dafd0a9448/broken.png"
+      ],
+      "hints": [
+        {
+          "cost": 15,
+          "hint": "I'dd look at the man page.",
+          "id": 33
+        },
+        {
+          "cost": 50,
+          "hint": "conv=swab",
+          "id": 34
+        }
+      ],
+      "id": 20,
+      "name": "Coffee Break",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 100
+    },
+    {
+      "category": "Reversing",
+      "description": "Everyone needs to show love to their favorite friends, right?\r\n\r\nWell this <i>exe</i> wants you to do the same. Maybe try running it?\r\n\r\nNote:\r\nThis exe is guaranteed to NOT be malicious. Nonetheless, there is still a flag in it for you to find.\r\n\r\n\\- BashNinja - [@miketweaver](https://twitter.com/miketweaver)",
+      "files": [
+        "328a4d6621f9e9b998a35a5563ef2a0c/not-enough-love.exe"
+      ],
+      "hints": [
+        {
+          "cost": 50,
+          "hint": "$ file not-enough-love.exe\r\nnot-enough-love.exe: PE32 executable (console) Intel 80386 <b>Mono/.Net assembly</b>, for MS Windows",
+          "id": 5
+        },
+        {
+          "cost": 125,
+          "hint": "https://www.jetbrains.com/decompiler/",
+          "id": 6
+        }
+      ],
+      "id": 7,
+      "name": "Not Enough Love",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 200
+    },
+    {
+      "category": "Forensics",
+      "description": "Find the flag hidden in the provided .pcap file. \r\nYou can use Wireshark to view the packet. \r\n\r\nKey is all lowercase.\r\n\r\n- fruitcup",
+      "files": [
+        "50e13565a1c9d34b22c60df39756a8a7/datapacket.pcap"
+      ],
+      "hints": [
+        {
+          "cost": 5,
+          "hint": "How does an image end up on your computer? What type of packets are involved? You should be looking for a GET request and individual TCP streams of each GET request to pngs. \r\n\r\n\r\n\r\n",
+          "id": 16
+        },
+        {
+          "cost": 10,
+          "hint": "If you feel like you are very close, you may be having problems reading the image. The ones and sevens look like eachother, so try sorting them out. ",
+          "id": 17
+        }
+      ],
+      "id": 11,
+      "name": "got pcaps?",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 200
+    },
+    {
+      "category": "Forensics",
+      "description": "Try and Catch me....",
+      "files": [
+        "596186a86647c9c0276267f5ddff95ef/invisibilitycloak"
+      ],
+      "hints": [
+        {
+          "cost": 50,
+          "hint": "TryCatchHCF",
+          "id": 25
+        },
+        {
+          "cost": 150,
+          "hint": "https://github.com/TryCatchHCF/Cloakify",
+          "id": 26
+        },
+        {
+          "cost": 200,
+          "hint": "https://github.com/TryCatchHCF/Cloakify\r\nAre there supposed to be spaces in there?",
+          "id": 32
+        }
+      ],
+      "id": 13,
+      "name": "Invisibility Cloak",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 200
+    },
+    {
+      "category": "Crypto",
+      "description": "Use a Flag from another challange to decrypt the zip. \r\n \r\n- fruitcup ",
+      "files": [
+        "5c0d08c74e652741f0583eb67b74e739/gOodlUcK-2.zip"
+      ],
+      "hints": [
+        {
+          "cost": 10,
+          "hint": "the zip decryption is the flag for the Ceasar challenge",
+          "id": 28
+        },
+        {
+          "cost": 25,
+          "hint": "106497027 ",
+          "id": 29
+        }
+      ],
+      "id": 17,
+      "name": "wargames",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 200
+    },
+    {
+      "category": "Reversing",
+      "description": "It looks like we've been given access to a binary from the [WOPR](https://en.wikipedia.org/wiki/WarGames).\r\n\r\nYou should take a look and see if Professor Falken left any extra surprises.\r\n\r\nProfessor Falken compiled this on all your OSes for you. Isn't he so kind?\r\n\r\nNote:\r\nThese binaries is guaranteed to NOT be malicious. Nonetheless, there is still a flag in it for you to find.\r\n\r\n\\- BashNinja - [@miketweaver](https://twitter.com/miketweaver)",
+      "files": [
+        "7bd0045d92baed578cf20ac304b53bc5/shall-we-play-a-game.linux.bin",
+        "36498da560bcd673e99dded682275f36/shall-we-play-a-game.macos.bin",
+        "311b7ab64352e70f9f186c8b39787aad/shall-we-play-a-game.windows.exe"
+      ],
+      "hints": [
+        {
+          "cost": 10,
+          "hint": "The linux and mac binaries are easier.",
+          "id": 9
+        },
+        {
+          "cost": 75,
+          "hint": "You're looking to run the \"DecryptMystring()\" function.",
+          "id": 10
+        },
+        {
+          "cost": 150,
+          "hint": "On the Linux binary, here's the Address for the function mentioned in the other Hint.\r\n0x102a",
+          "id": 12
+        }
+      ],
+      "id": 9,
+      "name": "Shall we play a game?",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 300
+    },
+    {
+      "category": "Reversing",
+      "description": "We've stolen Sombra's audio password, but it's scrambled. Will solving this be the Play of the Game?\r\n\r\n(All numbers should be submitted in numeric form.)",
+      "files": [
+        "373e7cf4f4ec467931c355182165a76e/audiomedic.mp3"
+      ],
+      "hints": [
+        {
+          "cost": 10,
+          "hint": "Who would have the Audacity to do this?",
+          "id": 30
+        },
+        {
+          "cost": 50,
+          "hint": "The gap might indicate the end of the flag...",
+          "id": 31
+        }
+      ],
+      "id": 18,
+      "name": "Audio Medic!",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 300
+    },
+    {
+      "category": "Forensics",
+      "description": "I had a picture saved on a flashdrive, but I ignored the \"Safely Remove Hardware\" warning and unplugged it. Now I cant see my files! ",
+      "files": [
+        "17c87b1033ecb7aa6021ab5af011da9b/picture.img.tar.bz2"
+      ],
+      "hints": [
+        {
+          "cost": 20,
+          "hint": "You are given a bzip2 file, you should extract it first. \r\n$ tar -xvf picture.img.tar.bz2\r\n1fdb86c25131bb3aa247bada29b29115.img\r\n\r\n$ file 1fdb86c25131bb3aa247bada29b29115.img\r\n1fdb86c25131bb3aa247bada29b29115.img: Linux rev 1.0 ext4 filesystem data, UUID=1385df22-b2ce-4b4f-858e-79ae1932ca1a (extents) (huge files)\r\n\r\nIt looks like this is an ext4 filesystem. If you try and mount it you will find nothing inside. Using extundelete will reveal that this filesystem is corrupted. You should try and repair it. ",
+          "id": 3
+        }
+      ],
+      "id": 6,
+      "name": "Save my Files!",
+      "script": "/plugins/challenges/assets/standard-challenge-modal.js",
+      "tags": [],
+      "template": "/plugins/challenges/assets/standard-challenge-modal.njk",
+      "type": "standard",
+      "value": 350
+    }
+  ]
+}
